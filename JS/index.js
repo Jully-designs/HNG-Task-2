@@ -7,11 +7,14 @@ window.onload = function (){loadText()};
 
 function scrollFunction(){
     var nav = document.getElementById("nav-stick");
+    var navContent = document.querySelector(".header");
     if(document.documentElement.scrollTop > 30){
+        navContent.classList.add("sticky-content");
         nav.classList.add("sticky-nav");
         nav.style.transition = "all 0.5s ease-in-out";
         
     }else{
+        navContent.classList.remove("sticky-content");
         nav.classList.remove("sticky-nav");
     }
 }

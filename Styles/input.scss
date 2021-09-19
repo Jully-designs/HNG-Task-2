@@ -42,7 +42,7 @@ html{
     scroll-behavior: smooth;
 }
 .navbar{
-    padding: 1rem 2rem;
+    // padding: 1rem 2rem;
     .navbar-collapse{
         text-align: center;
         padding: 20px;
@@ -72,12 +72,22 @@ html{
     width: 100%;
     z-index: 99;
     margin-bottom: 30px;
-    background-color: white;
+    background-color: #89c4ee;
     #navbarNavDropdown{
-        a{
-            color: #62bdfc;
+        ul{
+            li{
+                a{
+                    color: black;
+                    &:hover{
+                        color: white;
+                    }
+                }
+            }
         }
     }
+}
+.sticky-content{
+    padding-top: 20vh;
 }
 .header{
     margin: auto;
