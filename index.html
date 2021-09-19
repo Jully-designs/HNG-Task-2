@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Site</title>
+
+    <!-- bootstrap style -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    
+    <!-- custom css -->
+    <link rel="stylesheet" href="Styles/styles.css">
+
+    <!-- fonts awesome -->
+    <script src="https://kit.fontawesome.com/b58a06ae82.js" crossorigin="anonymous"></script>
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <section class="banner">
+        <div class="">
+            <nav class="navbar navbar-expand-lg navbar-light" id="nav-stick">
+                <a class="navbar-brand" href="https://internship.zuri.team/"><img src="Images/zuri-internship.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#resume">Resume</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div class="container">
+            <div class="header row">
+                <div class="header-container col-lg-5" id="header-image">
+                    <img src="Images/blob-image.png" alt="">
+                </div>
+                <div id="header-text" class="header-text col-lg-7">
+                    <h2>Hi, <span id="text"></span></h2>
+                    <h4>Frontend Website Developer</h4>
+                    <p>Junior level frontend developer offering enthusiasm and understanding of web design using basic markup languages.</p>
+                    <a href="#contact"><button class="button">Hire Me</button></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-header">
+                <h2>About Me.</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="about-details row">
+                <div class="about-image col-lg-6">
+                    <img src="Images/Juliet.jpg" alt="">
+                </div>
+                <div class="about-text col-lg-6">
+                    <p>Hello I'm Juliet Afolayan, I am passionate about web development. I'm an entry level frontend web developer with excellent oral and communication skills. I also possess the ability to work independently and as a team. I am a quick learner and a team worker that gets the job done. Looking forward to work with an organization where I can showcase my beautiful skills. </p>
+                    <a href="DOCS/Juliet's-CV.pdf"><button class="button">Download CV</button></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="resume" id="resume">
+        <div class="container-fluid row">
+            <div class="skills-header col-lg-12">
+                <h3>My Skills</h3>
+                <div class="underline"></div>
+            </div>
+        </div>
+        <div class="container myskills">
+            <div class="skills1 row">
+                <div class="html col-lg-6">
+                  <p>HTML 5</p>
+                  <label for="progress1">95%</label>
+                  <progress id="progress1"value="95" max="100">95%</progress>
+                </div>
+                <div class="css col-lg-6">
+                  <p>CSS3</p>
+                  <label for="progress2">80%</label>
+                  <progress id="progress2" value="80" max="100">95%</progress>
+                </div>
+            </div>
+            <div class="skills2 row">
+                <div class="bootstrap col-lg-6">
+                  <p>BOOTSTRAP</p>
+                  <label for="progress3">60%</label>
+                  <progress id="progress3"value="60" max="100">60%</progress>
+                </div>
+                <div class="javascript col-lg-6">
+                  <p>JAVASCRIPT</p>
+                  <label for="progress4">65%</label>
+                  <progress id="progress4" value="65" max="100">80%</progress>
+                </div>
+            </div>
+        </div>
+        <div class="educational-background-header">
+            <h4 class="experience-header">EDUCATIONAL BACKGROUND</h4>
+        </div>
+        <div class="experience-wrapper">
+            <div class="educational-background-body">
+                <div class="container-fluid row">
+                    <div class="col-lg-6">
+                        <div class="resume-details">
+                            <h5 class="resume-year">2015 - 2019</h5>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="resume-content">
+                            <h5 class="resume-header">Olabisi Onabanjo University <br/>Ago Iwoye, Ogun State</h5>
+                            <p class="resume-company">Bachelor of Science(B.Sc.) Computer Science</p>
+                            <p>B.Sc Thesis "Implementation and Design of an Online Voting System.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid row">
+            <div class="work-experience-header col-lg-12">
+              <h4 class="experience-header">WORK EXPERIENCE</h4>
+            </div>
+        </div>
+        <div class="experience-wrapper">
+            <div class="work-experience">
+                <div class="container-fluid row">
+                    <div class="col-lg-6">
+                        <div class="resume-details">
+                            <h5 class="resume-year">July 2021 - Present</h5>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="resume-content">
+                            <h5 class="resume-header">IT Support Staff</h5>
+                            <h5 class="resume-company">Appzone Group, Lekki Lagos</h5>
+                            <div class="header-content">
+                                <ul>
+                                    <li>Assist Clients in Installation of company software</li>
+                                    <li>Troubleshoot System and Installation Problems</li>
+                                    <li>Provide procedural documentation and relevant reports</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="work-experience">
+                <div class="container-fluid row">
+                    <div class="col-lg-6">
+                        <div class="resume-details">
+                            <h5 class="resume-year">March 2020 - February 2021</h5>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="resume-content">
+                            <h5 class="resume-header">National Youth Service Corp</h5>
+                            <h5 class="resume-company">African Alliance Insurance Plc, Dugbe,Ibadan</h5>
+                            <div class="header-content">
+                                <ul>
+                                    <li>Delivered onsite support for employees</li>
+                                    <li>Explanation of technical information in clear terms to aid faster and beter working experience.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="work-experience">
+                <div class="container-fluid row">
+                    <div class="col-lg-6">
+                        <div class="resume-details">
+                            <h5 class="resume-year">April 2018 - October 2018</h5>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="resume-content">
+                            <h5 class="resume-header">IT Support Intern</h5>
+                            <h5 class="resume-company">African Alliance Insurance Plc, Ikoyi, Lagos</h5>
+                            <div class="header-content">
+                                <ul>
+                                    <li>Troubleshooting and resolving desktop issues.</li>
+                                    <li>Delivered onsite technical support for employees</li>
+                                    <li>Responded to support request from users and patiently walked individuals through basic troubleshooting tasks.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+    <section class="portfolio" id="portfolio">
+        <div class="portfolio-header container-fluid">
+            <h3>My Works</h3>
+            <div class="underline"></div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <a href="https://tin-dog-site.netlify.app">
+                        <div class="card">
+                            <img src="Images/TinDog.png" alt="">
+                        </div>
+                    </a>
+                    
+                </div>
+                <div class="col-lg-6">
+                    <a href="https://madebyenigma.netlify.app">
+                        <div class="card">
+                            <img src="Images/madebyenigma.png" alt="">
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <a href="https://tin-dog-site.netlify.app">
+                        <div class="card">
+                            <img src="Images/TinDog.png" alt="">
+                        </div>
+                    </a>
+                    
+                </div>
+                <div class="col-lg-6">
+                    <a href="https://madebyenigma.netlify.app">
+                        <div class="card">
+                            <img src="Images/madebyenigma.png" alt="">
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <div class="container-fluid row">
+            <div class="contact-header col-lg-12">
+              <h3>CONTACT ME</h3>
+              <div class="underline"></div>
+            </div>
+          </div>
+          <div class="container-fluid row">
+            <div class="col-lg-8">
+                <div class="form-wrapper">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" class="form-control" name="" value="" placeholder="Full Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" name="" value="" placeholder="Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" name="" value="" placeholder="Subject">
+                        </div>
+                        <div class="form-group">
+                            <textarea name="name" class="form-control" rows="8" cols="45" placeholder="Message" required></textarea>
+                        </div>
+                        <div class="form-group">
+                            <button class="button" type="submit" name="button">Send</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="contact-wrapper">
+                    <div class="phone-wrapper">
+                        <i class="fas fa-mobile-alt"></i>
+                        <h6>Phone</h6>
+                        <p>08102068510</p>
+                    </div>
+                        <div class="email-wrapper">
+                        <i class="fas fa-envelope"></i>
+                        <h6>Email</h6>
+                        <p>olamidehorlly@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- bootstrap scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <!-- custom script -->
+    <script src="JS/index.js"></script>
+</body>
+<footer>
+    &copy; Juliet Designs 2021
+    <div class="socials">
+        <a href="https://www.instagram.com/aj_olamide/"><i class="fab fa-instagram"></i></a>
+        <a href="http://mobile.twitter.com/aj_larmhie"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.linkedin.com/in/juliet-afolayan-8208ba165/"><i class="fab fa-linkedin-in"></i></a>
+    </div>
+</footer>
+</html>
